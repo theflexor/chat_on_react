@@ -1,0 +1,85 @@
+.Chat h1 {
+     color: black;
+}
+
+.Chat {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     color: beige;
+     margin-top: 65px;
+     height: 90vh;
+}
+
+.block{
+     height: 450px;
+     width: 800px;
+     border-radius: 15px;
+}
+
+.chatInput{
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 40px;
+     width: 100%;
+     border-radius: 15px;
+     background: coral;
+}
+
+.chatInput input {
+     width: 70%;
+     height: 100%;
+     border-radius: 15px 10px 10px 15px;
+     border: none;
+     padding-left: 30px;
+     transition: 1s;
+     outline: none;
+}
+.chatInput .btn{
+     position:absolute;
+     right: 0;
+     transition: 1s;
+     width: 60px;
+     border-radius: 15px;
+     border: none;
+     height: 100%;
+     width: 30%;
+     background: tomato;
+}
+.chatInput .btn:hover{
+     background-color: dodgerblue;
+}
+.chatList{
+     flex-wrap: wrap;
+     display: flex;
+     align-items: flex-end;
+     justify-content:space-between;
+     height: 90%;
+     width: 100%;
+     border: none;
+     border-radius: 15px;
+     background: rgb(54, 58, 49);
+}
+.wrapper-msg{
+     width: 100% !important;
+}
+
+.msg{
+     float: right;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10px 20px;
+     min-width: 80px;
+     max-width: 300px;
+     min-height: 30px;
+     padding: 10px;
+     background: chocolate;
+     border-radius: 8px;
+}
+.msg-friend{
+     float: right !;
+}
